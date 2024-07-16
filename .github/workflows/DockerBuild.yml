@@ -3,9 +3,9 @@ name: Docker Buildx
 on:
   push:
     branches:
-      - 'main'
-    tags:
       - 'latest'
+    tags:
+      - '**'
 
 jobs:
   build:
