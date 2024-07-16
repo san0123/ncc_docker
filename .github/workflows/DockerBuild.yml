@@ -25,7 +25,7 @@ jobs:
         uses: docker/metadata-action@v5.5.1
         with:
           images: san0123/ncc_docker
-          tag-semver: |
+          sep-tags: |
             {{version}}
             {{major}}.{{minor}}
             
